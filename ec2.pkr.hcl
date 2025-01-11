@@ -1,6 +1,7 @@
 
 packer {
   required_plugins {
+    version = ">= 1.2.8"
     amazon = {
       source  = "github.com/hashicorp/amazon"
     }
